@@ -15,4 +15,9 @@
     border-radius: 5px;
     color: white;
   }
+
+  a:hover {
+    transition: 0.2s ease;
+    opacity: 0.7;
+  }
 }
