@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: purple;
+  padding: 1em 2em;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.navbar .nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.navbar .nav-cta {
+  background-color: purple;
+  padding: 1em 2em;
+  border-radius: 5px;
+  color: white;
+}
+.navbar a:hover {
+  transition: 0.2s ease;
+  opacity: 0.7;
+}
+
+.hero {
+  text-align: center;
+}
+.hero .hero-container {
+  margin-top: 6em;
+}
+.hero .hero-container .hero-title {
+  font-size: 5rem;
+}
+.hero .hero-container .hero-subtitle {
+  padding: 1em;
+  color: rgb(150, 150, 150);
+}
+.hero .hero-container .hero-btn {
+  margin-top: 2em;
+}
+.hero .hero-container .moon:hover {
+  transition: 0.3s ease;
+  display: inline-block;
+  transform: rotate(20deg);
+}
+.hero .reason {
+  margin-top: 10em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.hero .reason .hero-img {
+  margin-top: 3em;
+  width: 600px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.hero .reason .hero-img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: #181818;
+  }
+
+  .navbar ul li a {
+    color: white;
+  }
+}
+@media (prefers-color-scheme: light) {
+  .navbar ul li a {
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
