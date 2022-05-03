@@ -1,8 +1,9 @@
-  body {
-    color: white;
-    background-color: #181818;
-  }
+body {
+  color: white;
+  background-color: #181818;
+  transition: 0.3s ease;
+}
 
-  .navbar ul li a {
-    color: white;
-  }
+.navbar ul li a {
+  color: white;
+}
