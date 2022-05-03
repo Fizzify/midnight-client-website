@@ -1,0 +1,12 @@
+body {
+  color: black;
+  background-color: white;
+}
+
+.navbar ul li a {
+  color: black;
+}
+
+.hero-subtitle {
+  color: rgb(20, 20, 20);
+}

@@ -1,16 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  body {
-    color: white;
-    background-color: #181818;
-  }
-
-  .navbar ul li a {
-    color: white;
-  }
 }
 
 @media (prefers-color-scheme: light) {
-  .navbar ul li a {
-    color: black;
-  }
 }

@@ -9,9 +9,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./dist/css/main.css" media="all" />
+    <link
+      id="theme-css"
+      rel="stylesheet"
+      href="./app/css/dark.css"
+      media="all"
+    />
   </head>
   <body>
     <header class="navbar">
+      <a class="btn" id="toggle-theme">Toggle Theme</a>
       <nav>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
@@ -57,5 +64,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="./app/js/index.js"></script>
+    <script src="./app/js/theme.js" defer></script>
   </body>
 </html>
